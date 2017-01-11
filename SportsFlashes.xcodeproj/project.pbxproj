@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A986401D7E953700FAFCE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9863F1D7E953700FAFCE6 /* main.m */; };
+		18A986431D7E953700FAFCE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A986421D7E953700FAFCE6 /* AppDelegate.m */; };
+		18A986461D7E953700FAFCE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A986451D7E953700FAFCE6 /* ViewController.m */; };
+		18A986491D7E953700FAFCE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A986471D7E953700FAFCE6 /* Main.storyboard */; };
+		18A9864C1D7E953700FAFCE6 /* SportsFlashes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18A9864A1D7E953700FAFCE6 /* SportsFlashes.xcdatamodeld */; };
+		18A9864E1D7E953700FAFCE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A9864D1D7E953700FAFCE6 /* Assets.xcassets */; };
+		18A986511D7E953700FAFCE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A9864F1D7E953700FAFCE6 /* LaunchScreen.storyboard */; };
+		18A9865C1D7E953700FAFCE6 /* SportsFlashesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9865B1D7E953700FAFCE6 /* SportsFlashesTests.m */; };
+		18A986671D7E953700FAFCE6 /* SportsFlashesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A986661D7E953700FAFCE6 /* SportsFlashesUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A986581D7E953700FAFCE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A986331D7E953700FAFCE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A9863A1D7E953700FAFCE6;
+			remoteInfo = SportsFlashes;
+		};
+		18A986631D7E953700FAFCE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A986331D7E953700FAFCE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A9863A1D7E953700FAFCE6;
+			remoteInfo = SportsFlashes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A9863B1D7E953700FAFCE6 /* SportsFlashes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsFlashes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A9863F1D7E953700FAFCE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A986411D7E953700FAFCE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18A986421D7E953700FAFCE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18A986441D7E953700FAFCE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18A986451D7E953700FAFCE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18A986481D7E953700FAFCE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A9864B1D7E953700FAFCE6 /* SportsFlashes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportsFlashes.xcdatamodel; sourceTree = "<group>"; };
+		18A9864D1D7E953700FAFCE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A986501D7E953700FAFCE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A986521D7E953700FAFCE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A986571D7E953700FAFCE6 /* SportsFlashesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsFlashesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A9865B1D7E953700FAFCE6 /* SportsFlashesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SportsFlashesTests.m; sourceTree = "<group>"; };
+		18A9865D1D7E953700FAFCE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A986621D7E953700FAFCE6 /* SportsFlashesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsFlashesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A986661D7E953700FAFCE6 /* SportsFlashesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SportsFlashesUITests.m; sourceTree = "<group>"; };
+		18A986681D7E953700FAFCE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A986381D7E953700FAFCE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A986541D7E953700FAFCE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A9865F1D7E953700FAFCE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A986321D7E953700FAFCE6 = {
+			isa = PBXGroup;
+			children = (
+				18A9863D1D7E953700FAFCE6 /* SportsFlashes */,
+				18A9865A1D7E953700FAFCE6 /* SportsFlashesTests */,
+				18A986651D7E953700FAFCE6 /* SportsFlashesUITests */,
+				18A9863C1D7E953700FAFCE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A9863C1D7E953700FAFCE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A9863B1D7E953700FAFCE6 /* SportsFlashes.app */,
+				18A986571D7E953700FAFCE6 /* SportsFlashesTests.xctest */,
+				18A986621D7E953700FAFCE6 /* SportsFlashesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A9863D1D7E953700FAFCE6 /* SportsFlashes */ = {
+			isa = PBXGroup;
+			children = (
+				18A986411D7E953700FAFCE6 /* AppDelegate.h */,
+				18A986421D7E953700FAFCE6 /* AppDelegate.m */,
+				18A986441D7E953700FAFCE6 /* ViewController.h */,
+				18A986451D7E953700FAFCE6 /* ViewController.m */,
+				18A986471D7E953700FAFCE6 /* Main.storyboard */,
+				18A9864D1D7E953700FAFCE6 /* Assets.xcassets */,
+				18A9864F1D7E953700FAFCE6 /* LaunchScreen.storyboard */,
+				18A986521D7E953700FAFCE6 /* Info.plist */,
+				18A9864A1D7E953700FAFCE6 /* SportsFlashes.xcdatamodeld */,
+				18A9863E1D7E953700FAFCE6 /* Supporting Files */,
+			);
+			path = SportsFlashes;
+			sourceTree = "<group>";
+		};
+		18A9863E1D7E953700FAFCE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A9863F1D7E953700FAFCE6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A9865A1D7E953700FAFCE6 /* SportsFlashesTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A9865B1D7E953700FAFCE6 /* SportsFlashesTests.m */,
+				18A9865D1D7E953700FAFCE6 /* Info.plist */,
+			);
+			path = SportsFlashesTests;
+			sourceTree = "<group>";
+		};
+		18A986651D7E953700FAFCE6 /* SportsFlashesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A986661D7E953700FAFCE6 /* SportsFlashesUITests.m */,
+				18A986681D7E953700FAFCE6 /* Info.plist */,
+			);
+			path = SportsFlashesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A9863A1D7E953700FAFCE6 /* SportsFlashes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A9866B1D7E953700FAFCE6 /* Build configuration list for PBXNativeTarget "SportsFlashes" */;
+			buildPhases = (
+				18A986371D7E953700FAFCE6 /* Sources */,
+				18A986381D7E953700FAFCE6 /* Frameworks */,
+				18A986391D7E953700FAFCE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportsFlashes;
+			productName = SportsFlashes;
+			productReference = 18A9863B1D7E953700FAFCE6 /* SportsFlashes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A986561D7E953700FAFCE6 /* SportsFlashesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A9866E1D7E953700FAFCE6 /* Build configuration list for PBXNativeTarget "SportsFlashesTests" */;
+			buildPhases = (
+				18A986531D7E953700FAFCE6 /* Sources */,
+				18A986541D7E953700FAFCE6 /* Frameworks */,
+				18A986551D7E953700FAFCE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A986591D7E953700FAFCE6 /* PBXTargetDependency */,
+			);
+			name = SportsFlashesTests;
+			productName = SportsFlashesTests;
+			productReference = 18A986571D7E953700FAFCE6 /* SportsFlashesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A986611D7E953700FAFCE6 /* SportsFlashesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A986711D7E953700FAFCE6 /* Build configuration list for PBXNativeTarget "SportsFlashesUITests" */;
+			buildPhases = (
+				18A9865E1D7E953700FAFCE6 /* Sources */,
+				18A9865F1D7E953700FAFCE6 /* Frameworks */,
+				18A986601D7E953700FAFCE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A986641D7E953700FAFCE6 /* PBXTargetDependency */,
+			);
+			name = SportsFlashesUITests;
+			productName = SportsFlashesUITests;
+			productReference = 18A986621D7E953700FAFCE6 /* SportsFlashesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A986331D7E953700FAFCE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = SuperSports;
+				TargetAttributes = {
+					18A9863A1D7E953700FAFCE6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					18A986561D7E953700FAFCE6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18A9863A1D7E953700FAFCE6;
+					};
+					18A986611D7E953700FAFCE6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18A9863A1D7E953700FAFCE6;
+					};
+				};
+			};
+			buildConfigurationList = 18A986361D7E953700FAFCE6 /* Build configuration list for PBXProject "SportsFlashes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A986321D7E953700FAFCE6;
+			productRefGroup = 18A9863C1D7E953700FAFCE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A9863A1D7E953700FAFCE6 /* SportsFlashes */,
+				18A986561D7E953700FAFCE6 /* SportsFlashesTests */,
+				18A986611D7E953700FAFCE6 /* SportsFlashesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A986391D7E953700FAFCE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A986511D7E953700FAFCE6 /* LaunchScreen.storyboard in Resources */,
+				18A9864E1D7E953700FAFCE6 /* Assets.xcassets in Resources */,
+				18A986491D7E953700FAFCE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A986551D7E953700FAFCE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A986601D7E953700FAFCE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A986371D7E953700FAFCE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A986461D7E953700FAFCE6 /* ViewController.m in Sources */,
+				18A986431D7E953700FAFCE6 /* AppDelegate.m in Sources */,
+				18A986401D7E953700FAFCE6 /* main.m in Sources */,
+				18A9864C1D7E953700FAFCE6 /* SportsFlashes.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A986531D7E953700FAFCE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A9865C1D7E953700FAFCE6 /* SportsFlashesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A9865E1D7E953700FAFCE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A986671D7E953700FAFCE6 /* SportsFlashesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A986591D7E953700FAFCE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A9863A1D7E953700FAFCE6 /* SportsFlashes */;
+			targetProxy = 18A986581D7E953700FAFCE6 /* PBXContainerItemProxy */;
+		};
+		18A986641D7E953700FAFCE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A9863A1D7E953700FAFCE6 /* SportsFlashes */;
+			targetProxy = 18A986631D7E953700FAFCE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A986471D7E953700FAFCE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A986481D7E953700FAFCE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A9864F1D7E953700FAFCE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A986501D7E953700FAFCE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A986691D7E953700FAFCE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18A9866A1D7E953700FAFCE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A9866C1D7E953700FAFCE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SportsFlashes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.supersports.SportsFlashes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A9866D1D7E953700FAFCE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SportsFlashes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.supersports.SportsFlashes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18A9866F1D7E953700FAFCE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SportsFlashesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.supersports.SportsFlashesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsFlashes.app/SportsFlashes";
+			};
+			name = Debug;
+		};
+		18A986701D7E953700FAFCE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SportsFlashesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.supersports.SportsFlashesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsFlashes.app/SportsFlashes";
+			};
+			name = Release;
+		};
+		18A986721D7E953700FAFCE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SportsFlashesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.supersports.SportsFlashesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SportsFlashes;
+			};
+			name = Debug;
+		};
+		18A986731D7E953700FAFCE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SportsFlashesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.supersports.SportsFlashesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SportsFlashes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A986361D7E953700FAFCE6 /* Build configuration list for PBXProject "SportsFlashes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A986691D7E953700FAFCE6 /* Debug */,
+				18A9866A1D7E953700FAFCE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A9866B1D7E953700FAFCE6 /* Build configuration list for PBXNativeTarget "SportsFlashes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A9866C1D7E953700FAFCE6 /* Debug */,
+				18A9866D1D7E953700FAFCE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A9866E1D7E953700FAFCE6 /* Build configuration list for PBXNativeTarget "SportsFlashesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A9866F1D7E953700FAFCE6 /* Debug */,
+				18A986701D7E953700FAFCE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A986711D7E953700FAFCE6 /* Build configuration list for PBXNativeTarget "SportsFlashesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A986721D7E953700FAFCE6 /* Debug */,
+				18A986731D7E953700FAFCE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18A9864A1D7E953700FAFCE6 /* SportsFlashes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18A9864B1D7E953700FAFCE6 /* SportsFlashes.xcdatamodel */,
+			);
+			currentVersion = 18A9864B1D7E953700FAFCE6 /* SportsFlashes.xcdatamodel */;
+			path = SportsFlashes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18A986331D7E953700FAFCE6 /* Project object */;
+}
