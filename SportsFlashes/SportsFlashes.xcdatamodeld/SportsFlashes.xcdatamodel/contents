@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11224.2" systemVersion="15G31" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="NewsTable" syncable="YES">
+        <attribute name="created" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="datetime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="discription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="editor_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fb_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="img_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="like" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="like_count" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="newsType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsurl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="publisher" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="NewsTable" positionX="-63" positionY="-18" width="128" height="255"/>
+    </elements>
 </model>

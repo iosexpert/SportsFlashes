@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface footbalMatchListView : UIViewController
-
+{
+    IBOutlet UIView *topStatusBar;
+    IBOutlet UITableView *catTableView;
+}
 @end

@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface languageSelectorViewController : UIViewController
+{
+    IBOutlet UIView *topStatusBar;
+    
+}
 
 @end
+

@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+@import GoogleMobileAds;
 
 @interface liveScoreListViewController : UIViewController
+{
+    IBOutlet UITableView *liveTable;
+    IBOutlet UILabel *headingLable;
+    
+}
 
+@property (weak, nonatomic) IBOutlet GADBannerView  *bannerView;
+
+-(IBAction)backAction:(id)sender;
+-(IBAction)refreshAction:(id)sender;
 @end

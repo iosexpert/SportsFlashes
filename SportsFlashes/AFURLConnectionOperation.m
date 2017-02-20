@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import "AFURLConnectionOperation.h"
-
+#import "AFNetworking.h"
 typedef enum {
     AFHTTPOperationPausedState      = -1,
     AFHTTPOperationReadyState       = 1,

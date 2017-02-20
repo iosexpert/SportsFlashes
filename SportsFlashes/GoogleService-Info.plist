@@ -4,6 +4,10 @@
 <dict>
 	<key>TRACKING_ID</key>
 	<string>UA-83366922-1</string>
+	<key>CLIENT_ID</key>
+	<string>863042652715-uca8b8895311netedd18bpe2br2fcjgc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.863042652715-uca8b8895311netedd18bpe2br2fcjgc</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
@@ -19,7 +23,7 @@
 	<key>IS_GCM_ENABLED</key>
 	<false/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<false/>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:863042652715:ios:a272172030ec1694</string>
 </dict>

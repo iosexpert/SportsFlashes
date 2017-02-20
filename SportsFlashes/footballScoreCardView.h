@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface footballScoreCardView : UIViewController
-
+{
+    IBOutlet UIView *topStatusBar;
+    IBOutlet UITableView *catTableView;
+}
 @end

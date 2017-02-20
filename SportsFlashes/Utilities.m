@@ -47,10 +47,10 @@ int m_internetWorking;
         case NotReachable:
         {
             HUD.hidden=YES;
-            UIAlertView *al=[[UIAlertView alloc]initWithTitle:@"" message:@"No Internet Connection. Please Check Your Internet Settings" delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
+            //UIAlertView *al=[[UIAlertView alloc]initWithTitle:@"" message:@"No Internet Connection. Please Check Your Internet Settings" delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
            
-            [al show];
-            al=nil;
+            //[al show];
+            //al=nil;
             
             HUD.hidden=YES;
             return FALSE;
@@ -69,11 +69,11 @@ int m_internetWorking;
         }
         default:
         {
-            UIAlertView *al=[[UIAlertView alloc]initWithTitle:@"" message:@"No Internet Connection.Please Check Your Internet Settings" delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
-            [al show];
+            //UIAlertView *al=[[UIAlertView alloc]initWithTitle:@"" message:@"No Internet Connection.Please Check Your Internet Settings" delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
+            //[al show];
             
             HUD.hidden=YES;
-            al=nil;
+           // al=nil;
             return FALSE;
             break;
             

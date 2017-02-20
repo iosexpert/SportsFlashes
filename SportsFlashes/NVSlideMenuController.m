@@ -86,12 +86,13 @@
 	self = [super initWithNibName:nil bundle:nil];
 	if (self)
 	{
+        NSUserDefaults *u = [NSUserDefaults standardUserDefaults];
 		self.menuViewController = menuViewController;
 		self.contentViewController = contentViewController;
 		self.panGestureEnabled = YES;
         self.slideDirection = NVSlideMenuControllerSlideFromLeftToRight;
 		_contentViewWidthWhenMenuIsOpen = -1;
-		self.menuWidth = 256;
+		self.menuWidth = [[u objectForKey:@"size"]floatValue];
         self.autoAdjustMenuWidth = YES;
 		self.showShadowOnContentView = YES;
 	}

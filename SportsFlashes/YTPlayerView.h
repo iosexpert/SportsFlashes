@@ -606,13 +606,7 @@ typedef NS_ENUM(NSInteger, YTPlayerError) {
  */
 - (YTPlaybackQuality)playbackQuality;
 
-/**
- * Suggests playback quality for the video. It is recommended to leave this setting to
- * |default|. This method corresponds to the JavaScript API defined here:
- *   https://developers.google.com/youtube/iframe_api_reference#setPlaybackQuality
- *
- * @param quality YTPlaybackQuality value to suggest for the player.
- */
+
 - (void)setPlaybackQuality:(YTPlaybackQuality)suggestedQuality;
 
 /**

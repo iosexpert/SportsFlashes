@@ -8,14 +8,30 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import <Google/SignIn.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
+@interface AppDelegate : UIResponder <UIApplicationDelegate,GIDSignInDelegate>
+{
+    NSManagedObjectModel *managedObjectModel;
+    NSManagedObjectContext *managedObjectContext;
+    NSPersistentStoreCoordinator *persistentStoreCoordinator;
+}
 @property (strong, nonatomic) UIWindow *window;
 
-@property (readonly, strong) NSPersistentContainer *persistentContainer;
+@property () BOOL restrictRotation;
 
-- (void)saveContext;
+@property () BOOL notification;
+@property () int notiNewsId;
+@property () BOOL liveoFound;
+
+@property () BOOL batOrBowl;
+
+//@property (readonly, strong) NSPersistentContainer *persistentContainer;
+//@property (readonly, strong) NSManagedObjectModel *managedObjectModel;
+//@property (readonly, strong) NSManagedObjectContext *managedObjectContext;
+//@property (readonly, strong) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+//- (void)saveContext;
++(NSString*)HourCalculation:(NSString*)PostDate;
 
 
 @end

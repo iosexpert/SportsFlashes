@@ -307,6 +307,7 @@ NSString * const HarpyLanguageVietnamese            = @"vi";
             [alertController addAction:[self nextTimeAlertAction]];
             [alertController addAction:[self updateAlertAction]];
 
+            
             [self showAlertController:alertController];
 
         } break;
@@ -332,7 +333,10 @@ NSString * const HarpyLanguageVietnamese            = @"vi";
 
 - (void)showAlertController:(UIAlertController *)alertController {
 
+    
+    
     if (_presentingViewController != nil) {
+        
         [_presentingViewController presentViewController:alertController animated:YES completion:nil];
 
         if (_alertControllerTintColor) {

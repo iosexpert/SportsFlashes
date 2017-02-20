@@ -208,7 +208,7 @@ extern NSString * AFQueryStringFromParametersWithEncoding(NSDictionary *paramete
 /**
  Attempts to register a subclass of `AFHTTPRequestOperation`, adding it to a chain to automatically generate request operations from a URL request.
  
- @param The subclass of `AFHTTPRequestOperation` to register
+ @param operationClass subclass of `AFHTTPRequestOperation` to register
  
  @return `YES` if the registration is successful, `NO` otherwise. The only failure condition is if `operationClass` does is not a subclass of `AFHTTPRequestOperation`.
  
@@ -221,7 +221,7 @@ extern NSString * AFQueryStringFromParametersWithEncoding(NSDictionary *paramete
 /**
  Unregisters the specified subclass of `AFHTTPRequestOperation`.
  
- @param The class conforming to the `AFHTTPClientOperation` protocol to unregister
+ @param operationClass class conforming to the `AFHTTPClientOperation` protocol to unregister
  
  @discussion After this method is invoked, `operationClass` is no longer consulted when `requestWithMethod:path:parameters` is invoked.
  */
@@ -338,7 +338,6 @@ extern NSString * AFQueryStringFromParametersWithEncoding(NSDictionary *paramete
  Cancels all operations in the HTTP client's operation queue whose URLs match the specified HTTP method and path.
  
  @param method The HTTP method to match for the cancelled requests, such as `GET`, `POST`, `PUT`, or `DELETE`. If `nil`, all request operations with URLs matching the path will be cancelled. 
- @param url The path to match for the cancelled requests.
  */
 - (void)cancelAllHTTPOperationsWithMethod:(NSString *)method path:(NSString *)path;
 
@@ -481,7 +480,6 @@ extern NSString * AFQueryStringFromParametersWithEncoding(NSDictionary *paramete
  @param data The data to be encoded and appended to the form data.
  @param name The name to be associated with the specified data. This parameter must not be `nil`.
  @param mimeType The MIME type of the specified data. (For example, the MIME type for a JPEG image is image/jpeg.) For a list of valid MIME types, see http://www.iana.org/assignments/media-types/. This parameter must not be `nil`.
- @param filename The filename to be associated with the specified data. This parameter must not be `nil`.
  */
 - (void)appendPartWithFileData:(NSData *)data name:(NSString *)name fileName:(NSString *)fileName mimeType:(NSString *)mimeType;
 

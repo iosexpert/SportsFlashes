@@ -9,7 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
-
+{
+   IBOutlet UIImageView *animationImageViw;
+    IBOutlet UISegmentedControl *sgmtCtrl;
+    IBOutlet UIView *langSelectorView;
+    IBOutlet UIButton *submitBtn;
+    IBOutlet UIPickerView *pickView;
+}
+-(IBAction)submitAction:(id)sender;
 @end
 
